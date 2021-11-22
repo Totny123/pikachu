@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+.btnList {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.btnList button {
+    padding: 5px 10px;
+}
+
+.article {
+    min-width: 100vw;
+    max-height: 50vh;
+    overflow-x: hidden;
+}
+
+.article::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.phone {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffe600;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        transform: scale(0.8);
+    }
+}
