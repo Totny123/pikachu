@@ -46,7 +46,6 @@
     .container {
         transform: scale(0.8) translateY(-100px);
     }
-
     .article {
         position: relative;
         z-index: 9;
