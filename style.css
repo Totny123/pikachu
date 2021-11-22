@@ -43,16 +43,14 @@
 }
 
 @media screen and (max-width: 500px) {
-    .phone {
-        height: 60vh;
-    }
-
     .container {
-        transform: scale(0.8);
-        bottom: 40px;
+        transform: scale(0.8) translateY(-100px);
     }
 
     .article {
+        position: relative;
+        z-index: 9;
         margin-top: 50px;
+        background: #fff;
     }
 }
