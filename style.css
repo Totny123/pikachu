@@ -43,6 +43,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .phone {
+        height: 60vh;
+    }
+
     .container {
         transform: scale(0.8);
         bottom: 40px;
