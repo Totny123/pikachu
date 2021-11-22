@@ -45,5 +45,10 @@
 @media screen and (max-width: 500px) {
     .container {
         transform: scale(0.8);
+        bottom: 40px !important;
+    }
+
+    .article {
+        margin-top: 50px;
     }
 }
