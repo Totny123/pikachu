@@ -33,16 +33,15 @@
     width: 0 !important
 }
 
-.phone {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 50vh;
-    background-color: #ffe600;
-}
-
 @media screen and (max-width: 500px) {
+    .phone {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #ffe600;
+    }
     .container {
         transform: scale(0.8) translateY(-100px);
     }
